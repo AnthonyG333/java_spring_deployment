@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+#container{
+	margin: 25px;
+}
+
+#column1{
+	border-left: 4px solid grey;
+	margin-top: 5px;
+	margin-right:0px;
+	padding-right: 0px;
+}
+
+#column2{
+	border-right: 4px solid grey;
+	border-left: 4px solid grey;
+	margin-top: 5px;
+	width: fit-content;
+}
+
+#column3{
+	border-right: 4px solid grey;
+	padding: 25px;
+	margin-top: 5px;
+}
+
+#navItem{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 25px;
+}
+
+#avi{
+	max-width: 125px;
+	max-height: 125px;
+	width: auto;
+	height: auto;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+#userName{
+	font-size: 25px;
+	padding: 5px;
+}
+
+#friendContainer{
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	margin: 0px;
+	padding: 10px;
+}

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+#header{
+	color: blue;
+	align-self: center;	
+	margin: 25px;
+}
+
+#form {
+	border: 5px solid blue;
+	border-radius: 10px;
+	padding: 25px;
+	margin: 25px;
+}

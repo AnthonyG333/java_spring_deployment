@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+#container{
+	margin: 25px;
+}
+
+#column1{
+	border-left: 4px solid grey;
+	margin-top: 5px;
+	margin-right:0px;
+	padding-right: 0px;
+}
+
+#column2{
+	border-right: 4px solid grey;
+	border-left: 4px solid grey;
+	margin-top: 5px;
+}
+
+#column3{
+	border-right: 4px solid grey;
+	padding: 25px;
+	margin-top: 5px;
+}
+
+#navItem{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 25px;
+}
+
+#header{
+	width: 100%;
+	max-height: 300px;
+}
+
+#headerError{
+	width: 100%;
+	height: 50px;
+	background-color: light-grey;
+}
+
+
+#avi1{
+	max-width: 150px;
+	max-height: 150px;
+	width: auto;
+	height: auto;
+	border-radius: 50%;
+}
+
+#avi2{
+	max-width: 100px;
+	max-height: 100px;
+	width: auto;
+	height: auto;
+	border-radius: 50%;
+	margin: 10px;
+}
+
+
+
+#parentBox{
+	display: flex;
+	flex-direction: row;
+}
+
+#childBox{
+	flex: 1;
+}
+
+
+#messageCol{
+	margin-top: 25px;
+}
+
+#messageContainer{
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	width: 100%;
+	min-height: 125px;
+	height: auto;
+	
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+
+#parent{
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+	
+}
+
+#child1{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+#child2{
+	display: flex;
+	flex: 2;
+	flex-direction: column;
+	justify-content: left;
+	align-items: left;
+}
+
+#baby{
+	display: flex; 
+	flex-direction: row;
+	justify-content: left;
+	align-items: left;
+}
+
+#date{
+	position: absolute;
+	right: 10px;
+}
+
+#buttons{
+	display: flex;
+	flex: 1;
+	justify-content: space-evenly;
+	margin-left: auto;
+	margin-right: 10px;
+}
+
+#friendContainer{
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	margin: 0px;
+	padding: 10px;
+}
+
+#userName{
+	font-size: 25px;	
+}
+
